@@ -1,0 +1,118 @@
+{
+  "3dspeaker_speech_campplus_sv_en_voxceleb_16k": {
+    "dim": 512,
+    "embed_ms_p50": 14.6,
+    "embed_ms_max": 39.0,
+    "genuine_min": 0.215,
+    "genuine_p10": 0.333,
+    "impostor_max": 0.885,
+    "impostor_p99": 0.803,
+    "margin": -0.67,
+    "eer_threshold": 0.426,
+    "eer": 0.3887,
+    "hardest_impostors": [
+      [
+        0.885,
+        "Aman",
+        "Moira"
+      ],
+      [
+        0.844,
+        "Aman",
+        "Karen"
+      ],
+      [
+        0.843,
+        "Aman",
+        "Rishi"
+      ]
+    ]
+  },
+  "3dspeaker_speech_eres2net_sv_en_voxceleb_16k": {
+    "dim": 192,
+    "embed_ms_p50": 31.4,
+    "embed_ms_max": 99.5,
+    "genuine_min": 0.422,
+    "genuine_p10": 0.589,
+    "impostor_max": 0.654,
+    "impostor_p99": 0.574,
+    "margin": -0.232,
+    "eer_threshold": 0.538,
+    "eer": 0.0194,
+    "hardest_impostors": [
+      [
+        0.654,
+        "Junior",
+        "Kathy"
+      ],
+      [
+        0.64,
+        "Junior",
+        "Kathy"
+      ],
+      [
+        0.604,
+        "Rishi",
+        "Aman"
+      ]
+    ]
+  },
+  "nemo_en_titanet_small": {
+    "dim": 192,
+    "embed_ms_p50": 11.1,
+    "embed_ms_max": 32.6,
+    "genuine_min": 0.386,
+    "genuine_p10": 0.581,
+    "impostor_max": 0.667,
+    "impostor_p99": 0.582,
+    "margin": -0.281,
+    "eer_threshold": 0.483,
+    "eer": 0.0322,
+    "hardest_impostors": [
+      [
+        0.667,
+        "Aman",
+        "Rishi"
+      ],
+      [
+        0.665,
+        "Rishi",
+        "Aman"
+      ],
+      [
+        0.651,
+        "Aman",
+        "Rishi"
+      ]
+    ]
+  },
+  "wespeaker_en_voxceleb_resnet34_LM": {
+    "dim": 256,
+    "embed_ms_p50": 39.0,
+    "embed_ms_max": 124.0,
+    "genuine_min": 0.368,
+    "genuine_p10": 0.468,
+    "impostor_max": 0.78,
+    "impostor_p99": 0.711,
+    "margin": -0.412,
+    "eer_threshold": 0.541,
+    "eer": 0.2216,
+    "hardest_impostors": [
+      [
+        0.78,
+        "Rishi",
+        "Daniel"
+      ],
+      [
+        0.757,
+        "Samantha",
+        "Junior"
+      ],
+      [
+        0.75,
+        "Samantha",
+        "Junior"
+      ]
+    ]
+  }
+}

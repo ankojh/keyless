@@ -1,0 +1,23 @@
+{"t": 0.0204, "dir": "connected"}
+{"t": 0.4036, "dir": "recv", "frame": {"type": "partial", "text": "Computer."}}
+{"t": 0.8964, "dir": "recv", "frame": {"type": "partial", "text": "Computer"}}
+{"t": 1.432, "dir": "recv", "frame": {"type": "partial", "text": "Computer, start dictation."}}
+{"t": 1.9842, "dir": "recv", "frame": {"type": "partial", "text": "Computer, start dictation."}}
+{"t": 2.4782, "dir": "recv", "frame": {"type": "partial", "text": "Computer, start dictation."}}
+{"t": 2.5441, "dir": "recv", "frame": {"type": "final", "text": "Computer, start dictation.", "segment": 1}}
+{"t": 3.3113, "dir": "recv", "frame": {"type": "partial", "text": "Yeah."}}
+{"t": 3.7815, "dir": "recv", "frame": {"type": "partial", "text": "Dear Sam,"}}
+{"t": 4.316, "dir": "recv", "frame": {"type": "partial", "text": "Dear Sam, thank you."}}
+{"t": 4.8424, "dir": "recv", "frame": {"type": "partial", "text": "Dear Sam, thanks for the opportunity."}}
+{"t": 5.3599, "dir": "recv", "frame": {"type": "partial", "text": "Dear Sam, thanks for the update."}}
+{"t": 5.8768, "dir": "recv", "frame": {"type": "partial", "text": "Dear Sam, thanks for the update."}}
+{"t": 5.9077, "dir": "recv", "frame": {"type": "final", "text": "Dear Sam, thanks for the update.", "segment": 2}}
+{"t": 6.7002, "dir": "recv", "frame": {"type": "partial", "text": "Yeah."}}
+{"t": 7.2249, "dir": "recv", "frame": {"type": "partial", "text": "Computer."}}
+{"t": 7.7475, "dir": "recv", "frame": {"type": "partial", "text": "Computer new line."}}
+{"t": 8.2528, "dir": "audio_end", "audio_s": 8.231}
+{"t": 8.2661, "dir": "recv", "frame": {"type": "partial", "text": "Computer, new line."}}
+{"t": 8.7686, "dir": "recv", "frame": {"type": "final", "text": "Computer, new line.", "segment": 3}}
+{"t": 9.8231, "dir": "sent_end"}
+{"t": 9.8245, "dir": "recv", "frame": {"type": "done", "text": "Computer, start dictation. Dear Sam, thanks for the update. Computer, new line."}}
+{"t": 9.8257, "dir": "closed", "code": 1000, "reason": ""}

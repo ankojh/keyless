@@ -1,0 +1,11 @@
+{"t": 0.02, "dir": "connected"}
+{"t": 0.3955, "dir": "recv", "frame": {"type": "partial", "text": "Open"}}
+{"t": 0.8957, "dir": "recv", "frame": {"type": "partial", "text": "Open safari and"}}
+{"t": 1.4287, "dir": "recv", "frame": {"type": "partial", "text": "Open safari and focused"}}
+{"t": 1.9501, "dir": "recv", "frame": {"type": "partial", "text": "Open safari and focus the search for"}}
+{"t": 2.4773, "dir": "recv", "frame": {"type": "partial", "text": "Open Safari and focus the search field."}}
+{"t": 2.534, "dir": "audio_end", "audio_s": 2.513}
+{"t": 3.0126, "dir": "recv", "frame": {"type": "final", "text": "Open Safari and focus the search field.", "segment": 1}}
+{"t": 4.1089, "dir": "sent_end"}
+{"t": 4.1095, "dir": "recv", "frame": {"type": "done", "text": "Open Safari and focus the search field."}}
+{"t": 4.1098, "dir": "closed", "code": 1000, "reason": ""}

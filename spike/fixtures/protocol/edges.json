@@ -1,0 +1,23 @@
+{
+  "bad_auth": "handshake rejected HTTP 401",
+  "no_auth": "handshake rejected HTTP 401",
+  "second_stream": [
+    "{\"type\": \"error\", \"message\": \"engine busy \\u2014 one stream at a time\"}",
+    "<closed 1013 ''>"
+  ],
+  "second_stream_close_code": 1013,
+  "first_stream_after_second": [
+    "{\"type\": \"done\", \"text\": \"\"}"
+  ],
+  "bad_sample_rate": [
+    "{\"type\": \"error\", \"message\": \"sample_rate must be 16000 (got 22050) \\u2014 resample client-side\"}",
+    "<closed 1008 ''>"
+  ],
+  "idle": {
+    "frames": [
+      "<timeout>"
+    ],
+    "elapsed_s": 120.0,
+    "close_code": null
+  }
+}

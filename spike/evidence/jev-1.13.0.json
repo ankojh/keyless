@@ -1,0 +1,560 @@
+{
+  "summary": {
+    "requested_model": "jev-1.13.0",
+    "returned_models": [
+      "jev-1.13.0"
+    ],
+    "calls": 10,
+    "ok": 10,
+    "intent_correct": 9,
+    "latency_ms": {
+      "min": 137.4,
+      "p50": 155.60000000000002,
+      "p95": 545.1,
+      "max": 545.1
+    },
+    "input_tokens_total": 8615
+  },
+  "results": [
+    {
+      "repeat": 0,
+      "command": "go to the search box",
+      "expected": {
+        "intent": "focus_target",
+        "target": "t1"
+      },
+      "status": 200,
+      "latency_ms": 229.1,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 862,
+        "output_tokens": 182
+      },
+      "got": {
+        "intent": "focus_target",
+        "target": "t1"
+      },
+      "confidence": {
+        "intent": 0.99,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "focus_target",
+            0.99
+          ],
+          [
+            "activate_target",
+            0.01
+          ],
+          [
+            "open_app",
+            0.0
+          ]
+        ],
+        "target": [
+          [
+            "t1",
+            1.0
+          ],
+          [
+            "t2",
+            0.0
+          ],
+          [
+            "t3",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "put the cursor in the subject line",
+      "expected": {
+        "intent": "focus_target",
+        "target": "t6"
+      },
+      "status": 200,
+      "latency_ms": 137.4,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 864,
+        "output_tokens": 182
+      },
+      "got": {
+        "intent": "focus_target",
+        "target": "t6"
+      },
+      "confidence": {
+        "intent": 1.0,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "focus_target",
+            1.0
+          ],
+          [
+            "open_app",
+            0.0
+          ],
+          [
+            "activate_target",
+            0.0
+          ]
+        ],
+        "target": [
+          [
+            "t6",
+            1.0
+          ],
+          [
+            "t1",
+            0.0
+          ],
+          [
+            "t2",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "hit send",
+      "expected": {
+        "intent": "activate_target",
+        "target": "t5"
+      },
+      "status": 200,
+      "latency_ms": 161.6,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 859,
+        "output_tokens": 182
+      },
+      "got": {
+        "intent": "activate_target",
+        "target": "t5"
+      },
+      "confidence": {
+        "intent": 1.0,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "activate_target",
+            1.0
+          ],
+          [
+            "open_app",
+            0.0
+          ],
+          [
+            "focus_target",
+            0.0
+          ]
+        ],
+        "target": [
+          [
+            "t5",
+            1.0
+          ],
+          [
+            "t1",
+            0.0
+          ],
+          [
+            "t2",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "refresh this page",
+      "expected": {
+        "intent": "activate_target",
+        "target": "t3"
+      },
+      "status": 200,
+      "latency_ms": 147.5,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 860,
+        "output_tokens": 182
+      },
+      "got": {
+        "intent": "activate_target",
+        "target": "t3"
+      },
+      "confidence": {
+        "intent": 0.98,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "activate_target",
+            0.98
+          ],
+          [
+            "unsupported",
+            0.02
+          ],
+          [
+            "open_app",
+            0.0
+          ]
+        ],
+        "target": [
+          [
+            "t3",
+            1.0
+          ],
+          [
+            "t1",
+            0.0
+          ],
+          [
+            "t2",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "take me back a page",
+      "expected": {
+        "intent": "activate_target",
+        "target": "t2"
+      },
+      "status": 200,
+      "latency_ms": 545.1,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 862,
+        "output_tokens": 182
+      },
+      "got": {
+        "intent": "activate_target",
+        "target": "t2"
+      },
+      "confidence": {
+        "intent": 0.97,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "activate_target",
+            0.97
+          ],
+          [
+            "unsupported",
+            0.02
+          ],
+          [
+            "none",
+            0.01
+          ]
+        ],
+        "target": [
+          [
+            "t2",
+            1.0
+          ],
+          [
+            "t1",
+            0.0
+          ],
+          [
+            "t3",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "let me type the email now",
+      "expected": {
+        "intent": "start_dictation",
+        "target": "t7"
+      },
+      "status": 200,
+      "latency_ms": 152.4,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 863,
+        "output_tokens": 182
+      },
+      "got": {
+        "intent": "focus_target",
+        "target": "t7"
+      },
+      "confidence": {
+        "intent": 0.61,
+        "target": 0.83
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "focus_target",
+            0.65
+          ],
+          [
+            "none",
+            0.19
+          ],
+          [
+            "stop_dictation",
+            0.06
+          ]
+        ],
+        "target": [
+          [
+            "t7",
+            0.85
+          ],
+          [
+            "no_target",
+            0.15
+          ],
+          [
+            "t1",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "scroll down a bit",
+      "expected": {
+        "intent": "scroll",
+        "target": null
+      },
+      "status": 200,
+      "latency_ms": 145.5,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 861,
+        "output_tokens": 181
+      },
+      "got": {
+        "intent": "scroll",
+        "target": "no_target"
+      },
+      "confidence": {
+        "intent": 1.0,
+        "target": 0.98
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "scroll",
+            1.0
+          ],
+          [
+            "open_app",
+            0.0
+          ],
+          [
+            "focus_target",
+            0.0
+          ]
+        ],
+        "target": [
+          [
+            "no_target",
+            0.98
+          ],
+          [
+            "t7",
+            0.02
+          ],
+          [
+            "t1",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "delete everything in my downloads folder",
+      "expected": {
+        "intent": "unsupported",
+        "target": null
+      },
+      "status": 200,
+      "latency_ms": 158.8,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 863,
+        "output_tokens": 181
+      },
+      "got": {
+        "intent": "unsupported",
+        "target": "no_target"
+      },
+      "confidence": {
+        "intent": 1.0,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "unsupported",
+            1.0
+          ],
+          [
+            "open_app",
+            0.0
+          ],
+          [
+            "focus_target",
+            0.0
+          ]
+        ],
+        "target": [
+          [
+            "no_target",
+            1.0
+          ],
+          [
+            "t1",
+            0.0
+          ],
+          [
+            "t2",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "never mind",
+      "expected": {
+        "intent": "cancel",
+        "target": null
+      },
+      "status": 200,
+      "latency_ms": 147.4,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 859,
+        "output_tokens": 181
+      },
+      "got": {
+        "intent": "cancel",
+        "target": "no_target"
+      },
+      "confidence": {
+        "intent": 0.93,
+        "target": 1.0
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "cancel",
+            0.94
+          ],
+          [
+            "none",
+            0.05
+          ],
+          [
+            "stop_dictation",
+            0.01
+          ]
+        ],
+        "target": [
+          [
+            "no_target",
+            1.0
+          ],
+          [
+            "t1",
+            0.0
+          ],
+          [
+            "t2",
+            0.0
+          ]
+        ]
+      },
+      "error": null
+    },
+    {
+      "repeat": 0,
+      "command": "the weather is nice today",
+      "expected": {
+        "intent": "none",
+        "target": null
+      },
+      "status": 200,
+      "latency_ms": 165.4,
+      "model": "jev-1.13.0",
+      "usage": {
+        "input_tokens": 862,
+        "output_tokens": 181
+      },
+      "got": {
+        "intent": "none",
+        "target": "no_target"
+      },
+      "confidence": {
+        "intent": 0.97,
+        "target": 0.95
+      },
+      "top_probabilities": {
+        "intent": [
+          [
+            "none",
+            0.97
+          ],
+          [
+            "unsupported",
+            0.02
+          ],
+          [
+            "start_dictation",
+            0.01
+          ]
+        ],
+        "target": [
+          [
+            "no_target",
+            0.96
+          ],
+          [
+            "t7",
+            0.03
+          ],
+          [
+            "t1",
+            0.01
+          ]
+        ]
+      },
+      "error": null
+    }
+  ]
+}

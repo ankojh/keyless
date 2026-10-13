@@ -1,0 +1,31 @@
+{"t": 0.0173, "dir": "connected"}
+{"t": 0.4089, "dir": "recv", "frame": {"type": "partial", "text": "We should"}}
+{"t": 0.8883, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the game."}}
+{"t": 1.4235, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly"}}
+{"t": 1.9436, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next."}}
+{"t": 2.4724, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week."}}
+{"t": 2.989, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and in view."}}
+{"t": 3.5686, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone."}}
+{"t": 4.0449, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the"}}
+{"t": 4.5896, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design to the"}}
+{"t": 5.2745, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because"}}
+{"t": 5.6529, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new"}}
+{"t": 6.1324, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboard"}}
+{"t": 6.6459, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow"}}
+{"t": 7.1735, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback."}}
+{"t": 7.6984, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before."}}
+{"t": 8.2219, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before long."}}
+{"t": 8.7392, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the"}}
+{"t": 9.251, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics."}}
+{"t": 9.7768, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dash."}}
+{"t": 10.3449, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboards to"}}
+{"t": 10.842, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a"}}
+{"t": 11.3355, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a few gaps."}}
+{"t": 11.8605, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a few gaps we need to."}}
+{"t": 12.3768, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a few gaps we need to close."}}
+{"t": 12.9192, "dir": "recv", "frame": {"type": "partial", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a few gaps we need to close."}}
+{"t": 12.962, "dir": "audio_end", "audio_s": 12.943}
+{"t": 13.3097, "dir": "recv", "frame": {"type": "final", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a few gaps we need to close.", "segment": 1}}
+{"t": 14.5356, "dir": "sent_end"}
+{"t": 14.5359, "dir": "recv", "frame": {"type": "done", "text": "We should plan the quarterly review next week and invite everyone from the design team because the new onboarding flow needs feedback before launch and the analytics dashboard still has a few gaps we need to close."}}
+{"t": 14.5362, "dir": "closed", "code": 1000, "reason": ""}

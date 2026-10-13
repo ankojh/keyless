@@ -1,0 +1,25 @@
+.DS_Store
+
+# Spike runtime: virtualenv, local server credential, logs and PID files.
+spike/.venv/
+spike/.local-key
+spike/.serve-start
+spike/serve.log
+spike/serve.pid
+
+# Swift build output.
+.build/
+DerivedData/
+*.xcuserdatad/
+
+# App bundle output.
+build/
+
+# Downloaded model weights (hashes recorded in docs).
+spike/models/
+
+# Fetched by scripts/fetch-sherpa.sh (checksums are committed).
+vendor/sherpa-onnx/lib/
+vendor/sherpa-onnx/include/
+vendor/sherpa-onnx/models/
+vendor/sherpa-onnx/LICENSE
